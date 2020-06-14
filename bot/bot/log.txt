@@ -1,0 +1,17 @@
+
+> whatsapp-bot-hack@1.0.0 start /home/vision/git/whatsapp-bot-hack
+> nodejs ./whatsapp-bot-hack.js
+
+sh: 1: nodejs: not found
+npm ERR! code ELIFECYCLE
+npm ERR! syscall spawn
+npm ERR! file sh
+npm ERR! errno ENOENT
+npm ERR! whatsapp-bot-hack@1.0.0 start: `nodejs ./whatsapp-bot-hack.js`
+npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the whatsapp-bot-hack@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/vision/.npm/_logs/2020-06-12T02_48_42_726Z-debug.log

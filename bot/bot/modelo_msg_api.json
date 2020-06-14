@@ -1,0 +1,31 @@
+[{
+    "Type": "receveid_message",
+    "Body": {
+		"Info": {
+			"RemoteJid": "551199999999@s.whatsapp.net",
+			"SenderJid": ""
+		},
+    	"Text": "Olá essa e uma nova mensagem."
+    }
+},
+{
+    "Type": "receveid_audio_message",
+	"Body": {
+		"Info": {
+			"RemoteJid": "5511999999999@s.whatsapp.net",
+			"SenderJid": ""
+
+		}
+	},
+	"Url": "https://static.chatpro.com.br/api/dev-intace/audio/3A559A6098E90C61576B.ogg"
+},
+{
+	"Type": "receveid_image_message",
+	"Body": {
+		"Info": {
+			"RemoteJid": "5511999999999-1545397751@g.us",
+			"SenderJid": "5511999999999@s.whatsapp.net",
+		}
+	},
+	"Url": "https://static.chatpro.com.br/api/chatpro-1234556/imagens/3EB0FA5650BD10FE6FCA.jpeg"
+}]

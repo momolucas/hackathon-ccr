@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-bot-hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "whatsapp-bot-hack.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "sulla": "^2.3.14",
+    "utf8": "^3.0.0",
+    "venom-bot": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodejs ./whatsapp-bot-hack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
