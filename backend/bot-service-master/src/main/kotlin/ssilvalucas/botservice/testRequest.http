@@ -1,0 +1,123 @@
+### Registrar despesa
+POST http://localhost:8080/api/financeiro/5514981864662
+Content-Type: application/json
+
+{
+  "category": 1,
+  "cost": 100.0
+}
+
+### Listar Registrar despesa
+GET http://localhost:8080/api/financeiro/5514981864662/list
+Content-Type: application/json
+
+
+
+### Parada para comer
+POST http://localhost:8080/api/diario/eat/5514981864662
+Content-Type: application/json
+
+### Listar Parada para comer
+GET http://localhost:8080/api/diario/eat/5514981864662/list
+Content-Type: application/json
+
+
+
+### Pausa para descanso
+POST http://localhost:8080/api/diario/pause/5514981864662
+Content-Type: application/json
+
+### Listar Pausa para descanso
+GET http://localhost:8080/api/diario/pause/5514981864662/list
+Content-Type: application/json
+
+
+
+### Checklis
+POST http://localhost:8080/api/diario/checklist/5514981864662
+Content-Type: application/json
+
+{
+  "medidorOleo": "OK",
+  "pneus": "OK",
+  "farois": "OK",
+  "lanternas": "OK",
+  "limpeza": "OK"
+}
+
+### Listar Checklis
+GET http://localhost:8080/api/diario/checklist/5514981864662/list
+Content-Type: application/json
+
+
+
+### Finalizar Viagem
+POST http://localhost:8080/api/diario/finish/5514981864662
+Content-Type: application/json
+
+{
+  "odometroValue": 12345
+}
+
+### Listar Finalizar Viagem
+GET http://localhost:8080/api/diario/finish/5514981864662/list
+Content-Type: application/json
+
+
+
+### Iniciar Viagem
+POST http://localhost:8080/api/diario/start/5514981864662
+Content-Type: application/json
+
+{
+  "odometroValue": 12345
+}
+
+### Listar Iniciar Viagem
+GET http://localhost:8080/api/diario/start/5514981864662/list
+Content-Type: application/json
+
+
+### Abastecer
+POST http://localhost:8080/api/diario/abastecimento/5514981864662
+Content-Type: application/json
+
+{
+  "litros": 50
+}
+
+### Listar Abastecer
+GET http://localhost:8080/api/diario/abastecimento/5514981864662/list
+Content-Type: application/json
+
+
+
+### Get Motorista
+GET http://localhost:8080/api/driver/5514981864662
+Content-Type: application/json
+
+### Listar Motoristas
+GET http://localhost:8080/api/driver/list
+Content-Type: application/json
+
+### Cadastro Motorista
+POST http://localhost:8080/api/driver/register
+Content-Type: application/json
+
+{
+  "name": "Lucas Jozefovicz",
+  "phoneNumber": "5514981864662"
+}
+
+### Atualizar Cadastro Motorista
+PUT http://localhost:8080/api/driver/update/14981864662
+Content-Type: application/json
+
+{
+  "name": "Lucas Silva",
+  "phoneNumber": "5511981864662"
+}
+
+### Deletar Cadastro Motorista
+DELETE http://localhost:8080/api/driver/delete/14981864662
+###
