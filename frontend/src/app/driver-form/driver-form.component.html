@@ -1,0 +1,21 @@
+<div class="card mb-12 border-left-danger">
+    <div class="card-header">
+      Novo motorista
+    </div>
+    <div class="card-body" [formGroup]="driverForm">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Nome</label>
+            <input type="email" formControlName="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Whatsapp</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">+55</span>
+                </div>
+                <input type="text" formControlName="phoneNumber" class="form-control" placeholder="Número com o DDD" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+          </div>
+          <button (click) = "onCreate()" class="btn btn-primary float-right">Cadastrar</button>
+    </div>
+  </div>

@@ -1,0 +1,10 @@
+<div class="card">
+    <div class="card-header">
+    <b>STATUS DOS MOTORISTAS</b>
+    </div>
+    <div class="card-body">
+        <div class="row col-md-12">
+           <app-driver-card *ngFor="let driver of driverService.drivers" [driver]="driver" class="col-md-6"></app-driver-card>
+        </div>        
+    </div>
+</div>
